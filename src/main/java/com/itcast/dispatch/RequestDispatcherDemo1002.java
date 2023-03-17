@@ -14,6 +14,6 @@ public class RequestDispatcherDemo1002 extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("get1002...");
-        System.out.println(req.getAttribute("name"));
+//        System.out.println(req.getAttribute("name"));
     }
 }
